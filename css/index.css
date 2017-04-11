@@ -151,22 +151,22 @@ header>strong{
 }
 
 
-
-
-.container .service>.erhang{
-	overflow: hidden;
+.container .service>.erhang>ul{
+	border-bottom: 0.01rem solid #E8E8E8;
 }
 
-.container .service>.erhang>ul{
-		overflow: hidden;
+
+.container .service>.erhang>ul:after{
+	content: "";
+	display: block;
+	clear: both;
 }
 
 .container .service>.erhang>ul>li{
 	width: 33.33%;
 	float: left;
-	padding:0.38rem 0.16rem;
+	padding:0.38rem 0rem;
 	border-right: 0.01rem solid #E8E8E8;
-	border-bottom: 0.01rem solid #E8E8E8;
 }
 
 .container .service>.erhang>ul>li:last-child{
@@ -180,12 +180,12 @@ header>strong{
 }
 
 .container .service>.erhang>ul>li>a>figure{
-	/*padding-right: 0.28rem;*/
 	overflow: hidden;
 }
 
 .container .service>.erhang>ul>li>a>figure>figcaption{
 	float: left;
+	width: 1.51rem;
 }
 
 .container .service>.erhang>ul>li>a>figure>figcaption>p{
@@ -194,10 +194,10 @@ header>strong{
 	margin-top: 0.18rem;
 }
 .container .service>.erhang>ul>li>a>figure>img{
-	display: block;
 	width: 0.6rem;
-	height: 0.6rem;
+	height: auto;
 	float: left;
+	margin-left: 0.16rem;
 	margin-right: 0.18rem;
 }
 
@@ -275,4 +275,16 @@ header>strong{
 	font-size: 0.26rem;
 	font-weight: bolder;
 	margin-left: 0.13rem;
+}
+@media screen and (max-width:4.6rem){
+	/*.container .service>.erhang>ul>li{
+		text-align: center;
+	}
+	
+	.container .service>.erhang>ul>li>a>figure>img{
+		float:right;
+	}*/
+	/*.container .service>.erhang>ul>li>a>figure>figcaption{
+		font-size: 0.14rem;
+	}*/
 }
