@@ -1,0 +1,186 @@
+*{
+	box-sizing: border-box;
+}
+
+body,html{
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	overflow: scroll;
+}
+
+html{
+	overflow: hidden;
+	position: relative;
+}
+
+header{
+	width: 100%;
+	height: 0.93rem;
+	background: #0078E6;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top:0.13rem;
+	position: absolute;
+	top:0rem;
+	left:0rem;
+}
+
+header>img{
+	width: 0.7rem;
+	height: 0.7rem;
+	vertical-align: middle;
+}
+
+header>strong{
+	font-size: 0.33rem;
+	color: #fff;
+	vertical-align: middle;
+	padding-left: 0.15rem;
+}
+
+.banner{
+	margin-top:0.93rem;
+}
+
+.banner>img{
+	display: block;
+	width: 100%;
+}
+
+.container{
+	padding: 0rem 0.24rem;
+	background: #F5F6FA;
+	overflow: hidden;
+}
+
+.container .about-title{
+	padding: 0.30rem 0rem;
+}
+
+.container .about-title>ul{
+	overflow: hidden;
+}
+
+.container .about-title>ul>li{
+	float: left;
+}
+
+.container .about-title>ul>li>a{
+	font-size: 0.22rem;
+	color: #494747;
+}
+
+.container .about-title>ul>li>img{
+	display: inline-block;
+	height: 0.22rem;
+	padding: 0rem 0.2rem 0rem 0.23rem;
+}
+
+.container .student{
+	overflow: hidden;
+}
+
+.container .student>ul{
+	overflow: hidden;
+}
+
+.container .student>ul>li{
+	padding:0.2rem;
+	background: #fff;
+	margin-bottom: 0.1rem;
+}
+
+.container .student>ul>li{
+	display: block;
+}
+
+.container .student>ul>li>figure{
+	overflow: hidden;
+}
+
+.container .student>ul>li>figure>img{
+	display: block;
+	width: 1.93rem;
+	height: 1.45rem;
+	float: left;
+}
+
+.container .student>ul>li>figure>figcaption{
+	float: left;
+	color: #111111;
+	padding:0.21rem 0.3rem;
+	font-size: 0.24rem;
+}
+
+.container .student>ul>li>figure>figcaption>p>strong{
+	font-size: 0.25rem;
+	margin-right: 0.1rem;
+}
+
+.container .student>ul>li>figure>figcaption>p>span{
+	font-size: 0.11rem;
+}
+
+.container .student>ul>li>figure>figcaption>hr{
+	border:0.01rem dotted #727272;
+	width: 1.05rem;
+	height: 0.01rem;
+	margin:0.08rem 0rem;
+}
+
+.container .student>ul>li>figure>figcaption>p:nth-of-type(2){
+	color: #94D43B;
+	font-weight: bolder;
+}
+
+.container .student>ul>li>figure>figcaption>p:last-child{
+	font-weight: bolder;
+}
+
+
+.fenyeliebiao{
+	background: #fff;
+	padding:0rem 0.35rem 0rem 0.37rem;
+}
+
+.fenyeliebiao ul{
+	overflow: hidden;
+}
+
+.fenyeliebiao ul>li{
+	padding:0.2rem 0rem 0.2rem 0rem;
+	float: left;
+	margin-right: 0.18rem;
+}
+
+.fenyeliebiao ul>li:nth-child(9){
+	padding-left: 0.25rem;
+	margin-top:0.05rem;
+}
+
+.fenyeliebiao ul>li:nth-child(10){
+	margin-right:0rem;
+}
+
+.fenyeliebiao ul>li>a{
+	display: block;
+	font-size: 0.20rem;
+	color: #000000;
+}
+
+.fenyeliebiao ul>li>a>img{
+	display: block;
+	height: 0.32rem;
+}
+
+.footer{
+	background: #F5F6FA;
+	padding:0.2rem 0rem 0.17rem;
+	text-align: center;
+	line-height: 0.36rem;
+	font-size: 0.2rem;
+	color: #666666;
+}

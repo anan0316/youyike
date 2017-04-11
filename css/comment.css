@@ -1,0 +1,25 @@
+*{
+	/*禁止调整字体大小*/
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+	/*禁止文字被选中*/
+	-webkit-user-select: none;
+	user-select: none;
+	/*字体增强*/
+	max-height: 9999999px;
+	margin:0px;
+	padding:0px;
+	list-style: none;
+	text-decoration: none;
+}
+a,input,form,button{
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-appearance: none;
+}
+body{
+	font-family: "helvetica";
+	/*调用原生滚动条*/
+	-webkit-overflow-scrolling: touch;
+	overflow-scrolling: touch;
+	font-size: 0.14rem;
+}

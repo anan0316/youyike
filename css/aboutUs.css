@@ -1,0 +1,214 @@
+*{
+	box-sizing: border-box;
+}
+
+body,html{
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	overflow: scroll;
+}
+
+html{
+	overflow: hidden;
+	position: relative;
+}
+
+header{
+	width: 100%;
+	height: 0.93rem;
+	background: #0078E6;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top:0.13rem;
+	position: absolute;
+	top:0rem;
+	left:0rem;
+}
+
+header>img{
+	width: 0.7rem;
+	height: 0.7rem;
+	vertical-align: middle;
+}
+
+header>strong{
+	font-size: 0.33rem;
+	color: #fff;
+	vertical-align: middle;
+	padding-left: 0.15rem;
+}
+
+.banner{
+	margin-top: 0.93rem;
+}
+
+.banner>img{
+	display: block;
+	width: 100%;
+}
+
+.container{
+	padding: 0rem 0.24rem;
+	background: #F5F6FA;
+	overflow: hidden;
+}
+
+.container .about-title{
+	padding: 0.30rem 0rem;
+}
+
+.container .about-title>ul{
+	overflow: hidden;
+}
+
+.container .about-title>ul>li{
+	float: left;
+}
+
+.container .about-title>ul>li>a{
+	font-size: 0.22rem;
+	color: #494747;
+}
+
+.container .about-title>ul>li>img{
+	display: inline-block;
+	height: 0.22rem;
+	padding: 0rem 0.2rem 0rem 0.23rem;
+}
+
+.container .Summary{
+	padding: 0.23rem 0.2rem 0.28rem;
+	overflow: hidden;
+	background: #FFFFFF;
+	margin-bottom: 0.1rem;
+}
+
+.container .Summary>span{
+	display: inline-block;
+	width: 0.04rem;
+	height: 0.2rem;
+	float: left;
+	background: #01B5FF;
+	margin-right: 0.19rem;
+}
+
+.container .Summary>h2{
+	color: #444444;
+}
+
+.container hr{
+	border:0.01rem dashed #999999;
+	width: 6.4rem;
+	height: 0.01rem;
+	margin:0.14rem 0rem 0.16rem 0.2rem;
+}
+
+.container .content{
+	width: 6.4rem;
+	float: right;
+	font-size: 0.24rem;
+	color: #666666;
+	line-height: 1.5em;
+}
+
+.container .content>p{
+	margin-bottom: 0.45rem;
+	text-align: justify;
+}
+
+.container .content>p:last-child{
+	margin-bottom: 0rem;
+}
+
+.container .culture{
+	padding: 0.23rem 0.2rem 0.28rem;
+	overflow: hidden;
+	background: #FFFFFF;
+	margin-bottom: 0.1rem;
+}
+
+.container .culture>span{
+	display: inline-block;
+	width: 0.04rem;
+	height: 0.2rem;
+	float: left;
+	background: #01B5FF;
+	margin-right: 0.19rem;
+}
+
+.container .culture>h2{
+	color: #444444;
+}
+
+.container .culture>.fenlei{
+	width: 6.4rem;
+	float: right;
+}
+
+.container .culture>.fenlei>ul>li{
+	width: 33.33%;
+	float: left;
+	padding:0.2rem 0.4rem 0.1rem;
+	text-align: center;
+}
+
+.container .culture>.fenlei>ul>li>a{
+	display: block;
+}
+.container .culture>.fenlei>ul>li>a>img{
+	display: block;
+	width: 1.33rem;
+	height: 1.33rem;
+}
+
+.container .idea{
+	padding: 0.13rem 0.2rem 0.18rem;
+	overflow: hidden;
+	background: #FFFFFF;
+	margin-bottom: 0.1rem;
+}
+
+.container .idea>span{
+	display: inline-block;
+	width: 0.04rem;
+	height: 0.2rem;
+	float: left;
+	background: #01B5FF;
+	margin-right: 0.19rem;
+}
+
+.container .idea>h2{
+	color: #444444;
+}
+
+.container .idea>.content{
+	width: 6.4rem;
+	float: right;
+	font-size: 0.24rem;
+	color: #666666;
+}
+
+.container .baoming{
+	padding:0.24rem 0rem 0.18rem;
+	text-align: center;
+}
+
+.container .baoming>a{
+	display: block;
+}
+
+.container .baoming>a>img{
+	width: 1.68rem;
+	height: 1.68rem;
+}
+
+.container .footer{
+	text-align: center;
+	line-height: 0.36rem;
+	font-size: 0.2rem;
+	color: #666666;
+	padding-bottom: 0.1rem;
+}

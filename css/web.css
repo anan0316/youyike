@@ -1,0 +1,389 @@
+*{
+	box-sizing: border-box;
+}
+body,html{
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	overflow: scroll;
+}
+
+html{
+	overflow: hidden;
+	position: relative;
+}
+
+header{
+	width: 100%;
+	height: 0.93rem;
+	background: #0078E6;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top:0.13rem;
+	position: absolute;
+	top:0rem;
+	left:0rem;
+}
+
+header>img{
+	width: 0.7rem;
+	height: 0.7rem;
+	vertical-align: middle;
+}
+
+header>strong{
+	font-size: 0.33rem;
+	color: #fff;
+	vertical-align: middle;
+	padding-left: 0.15rem;
+}
+
+.banner{
+	margin-top: 0.93rem;
+}
+
+.banner>img{
+	display: block;
+	width: 100%;
+}
+
+.container{
+	padding: 0rem 0.24rem;
+	background: #F5F6FA;
+	overflow: hidden;
+}
+
+.container .about-title{
+	padding: 0.30rem 0rem;
+}
+
+.container .about-title>ul{
+	overflow: hidden;
+}
+
+.container .about-title>ul>li{
+	float: left;
+}
+
+.container .about-title>ul>li>a{
+	font-size: 0.22rem;
+	color: #494747;
+}
+
+.container .about-title>ul>li>img{
+	display: inline-block;
+	height: 0.22rem;
+	padding: 0rem 0.2rem 0rem 0.23rem;
+}
+
+.container .about-type{
+	background: #FFFFFF;
+	background: #fff;
+	margin-bottom: 0.1rem;
+}
+
+.container .about-type>ul{
+	overflow: hidden;
+	padding: 0.28rem 0.27rem 0.34rem;
+}
+
+.container .about-type>ul>li{
+	width: 25%;
+	padding: 0rem 0.2rem;
+	float: left;
+}
+
+.container .about-type>ul>li>a{
+	display: block;
+}
+
+.container .about-type>ul>li>a>img{
+	display: block;
+	width: 100%;
+}
+
+.container .about-web{
+	padding: 0.23rem 0.2rem 0.28rem;
+	overflow: hidden;
+	background: #FFFFFF;
+	margin-bottom: 0.1rem;
+}
+
+.container .about-web>span{
+	display: inline-block;
+	width: 0.04rem;
+	height: 0.2rem;
+	float: left;
+	background: #01B5FF;
+	margin-right: 0.19rem;
+}
+
+.container .about-web>h2{
+	color: #444444;
+}
+
+.container .about-web>hr{
+	border:0.01rem dashed #999999;
+	width: 6.4rem;
+	height: 0.01rem;
+	 margin:0.14rem 0rem 0.1rem 0.2rem;
+}
+
+
+.container .about-web>.neirong{
+	width: 6.4rem;
+	padding-left: 0.2rem;
+	text-align: left;
+}
+
+.container .about-web>.neirong>p{
+	font-size: 0.23rem;
+	color: #666666;
+	line-height: 1.5em;
+}
+
+.container .about-web>.neirong>p:nth-child(2),.about-web>.neirong>p:nth-child(4),.about-web>.neirong>p:nth-child(6){
+	font-weight: bolder;
+	color: #01B5FF;
+}
+
+.container .employment{
+	background: #fff;
+	overflow: hidden;
+	padding: 0.23rem 0.2rem 0.28rem;
+	margin-bottom: 0.1rem;
+}
+
+.container .employment>span{
+	display: inline-block;
+	width: 0.04rem;
+	height: 0.2rem;
+	float: left;
+	background: #01B5FF;
+	margin-right: 0.19rem;
+}
+
+.container .employment>h2{
+	color: #444444;
+}
+
+.container .employment>hr{
+	 border:0.01rem dashed #999999;
+	 width: 6.4rem;
+	 height: 0.01rem;
+	 margin:0.14rem 0rem 0.1rem 0.2rem;
+}
+
+.container .employment>img{
+	display: block;
+	width: 100%;
+}
+
+.container .post{
+	background: #fff;
+	overflow: hidden;
+	padding: 0.23rem 0.2rem 0.2rem;
+	margin-bottom: 0.1rem;
+}
+
+.container .post>span{
+	display: inline-block;
+	width: 0.04rem;
+	height: 0.2rem;
+	float: left;
+	background: #01B5FF;
+	margin-right: 0.19rem;
+}
+
+.container .post>h2{
+	color: #444444;
+}
+
+.container .post>hr{
+	 border:0.01rem dashed #999999;
+	 width: 6.4rem;
+	 height: 0.01rem;
+	 margin:0.14rem 0rem 0.1rem 0.2rem;
+}
+
+.container .post>.neirong{
+	width: 6.4rem;
+	padding-left: 0.2rem;
+}
+
+.container .post>.neirong>ul>li{
+	overflow: hidden;
+	padding: 0.1rem 0rem;
+}
+
+.container .post>.neirong>ul>li>figure{
+	width: 100%;
+	overflow: hidden;
+}
+
+.container .post>.neirong>ul>li>figure>img{
+	display: block;
+	width: 0.56rem;
+	float: left;
+}
+
+.container .post>.neirong>ul>li>figure>figcaption{
+	height: 100%;
+	box-sizing: border-box;
+	padding: 0.07rem 0rem 0.07rem 0.2rem;
+	float: left;
+}
+
+.container .post>.neirong>ul>li>figure>figcaption>h2{
+	margin-bottom: 0.02rem;
+	color: #01B5FF;
+}
+
+.container .post>.neirong>ul>li>figure>figcaption>span{
+	color: #3E3A39;
+}
+
+
+
+
+.container .student{
+	background: #fff;
+	overflow: hidden;
+	padding: 0.23rem 0.2rem 0.2rem;
+	margin-bottom: 0.1rem;
+}
+
+.container .student>span{
+	display: inline-block;
+	width: 0.04rem;
+	height: 0.2rem;
+	float: left;
+	background: #01B5FF;
+	margin-right: 0.19rem;
+}
+
+.container .student>h2{
+	color: #444444;
+}
+
+.container .student>.neirong{
+	width: 100%;
+	/*padding-left: 0.2rem;*/
+	overflow: hidden;
+}
+
+.container .student>.neirong>.left{
+	width: 0.22rem;
+	height: 4.07rem;
+	float: left;
+	box-sizing: border-box;
+	padding-top: 0.63rem;
+	overflow: hidden;
+}
+
+.container .student>.neirong>.left>hr{
+	border:0.01rem dashed #999999;
+	width: 3.4rem;
+	height: 0.01rem;
+	transform-origin: left top;
+	transform: rotateZ(90deg);
+	margin-left: 0.11rem;
+	
+}
+.container .student>.neirong>.left>ul{
+	float: left;
+	
+}
+
+.container .student>.neirong>.left>ul>li{
+	box-sizing: border-box;
+	padding: 0.15rem 0rem;
+	margin-bottom: 0.21rem;
+}
+
+.container .student>.neirong>.left>ul>li:last-child{
+	margin-bottom: 0rem;
+}
+
+.container .student>.neirong>.left>ul>li>img{
+	width: 0.2rem;
+	display: block;
+}
+
+
+.container .student>.neirong>.right{
+	/*width:6.4rem;*/
+	/*float: right;*/
+}
+
+.container .student>.neirong>.right>ul{
+	overflow: hidden;
+}
+
+.container .student>.neirong>.right>ul>li{
+	overflow: hidden;
+	float: left;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 0rem 0rem 0rem 0.47rem;
+}
+
+.container .student>.neirong>.right>ul>li>dl>dt{
+	height: 0.50rem;
+	line-height: 0.50rem;
+	font-size: 0.22rem;
+	color: #000000;
+}
+
+.container .student>.neirong>.right>ul>li>dl>dd{
+	height: 0.72rem;
+	line-height: 0.72rem;
+	font-size: 0.22rem;
+	color: #666666;
+}
+
+.container .student>.neirong>.right>ul>li:nth-child(2)>dl>dd{
+	box-sizing: border-box;
+	/*padding: 0rem 0.32rem;*/
+	color: #FFA201;
+}
+
+.container .class{
+	background: #fff;
+	overflow: hidden;
+	padding: 0.23rem 0.2rem 0.2rem;
+	margin-bottom: 0.1rem;
+}
+
+.container .class>span{
+	display: inline-block;
+	width: 0.04rem;
+	height: 0.2rem;
+	float: left;
+	background: #01B5FF;
+	margin-right: 0.19rem;
+}
+
+.container .class>h2{
+	color: #444444;
+}
+
+.container .class>hr{
+	 border:0.01rem dashed #999999;
+	 width: 6.4rem;
+	 height: 0.01rem;
+	 margin:0.14rem 0rem 0.1rem 0.2rem;
+}
+
+.container .class>.pic>img{
+	width: 100%;
+}
+
+.container .footer{
+	text-align: center;
+	line-height: 0.36rem;
+	font-size: 0.2rem;
+	color: #666666;
+}

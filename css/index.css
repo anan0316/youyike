@@ -1,0 +1,278 @@
+*{
+	box-sizing: border-box;
+}
+
+body,html{
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	overflow: scroll;
+}
+
+html{
+	overflow: hidden;
+	position: relative;
+}
+
+header{
+	width: 100%;
+	height: 0.93rem;
+	background: #0078E6;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top:0.13rem;
+	position: absolute;
+	top:0rem;
+	left:0rem;
+}
+
+header>img{
+	width: 0.7rem;
+	height: 0.7rem;
+	vertical-align: middle;
+}
+
+header>strong{
+	font-size: 0.33rem;
+	color: #fff;
+	vertical-align: middle;
+	padding-left: 0.15rem;
+}
+
+.banner{
+	margin-top: 0.93rem;
+}
+
+.banner>img{
+	display: block;
+	width: 100%;
+}
+
+.container{
+	background: #F5F6FA;
+	overflow: hidden;
+}
+
+.container .fenlei{
+	overflow: hidden;
+	padding:0.3rem 0.05rem;
+}
+
+.container .fenlei>ul{
+	overflow: hidden;
+}
+
+.container .fenlei>ul>li{
+	float: left;
+	padding:0rem 0.15rem;
+}
+
+.container .fenlei>ul>li:nth-child(4)~li{
+	margin-top: 0.15rem;
+}
+
+.container .fenlei>ul>li>a{
+	display: block;
+	font-size: 0.23rem;
+	color: #000000;
+	font-weight: bolder;
+	line-height: 0.52rem;
+}
+
+.container .fenlei>ul>li>a>figure>img{
+	display: block;
+	width:1.55rem;
+	height: 1.55rem;
+}
+.container .fenlei>ul>li>a>figure>figcaption{
+	text-align: center;
+}
+
+.container .service{
+	background: #fff;
+	margin-bottom: 0.92rem;
+}
+
+.container .service>.header{
+	border-bottom: 0.01rem solid #E8E8E8;
+	font-size: 0.22rem;
+	font-weight: bolder;
+	color: #1378BA;
+	text-align: center;
+	line-height: 0.63rem;
+}
+
+.container .service>.yihang{
+	overflow: hidden;
+}
+
+.container .service>.yihang>ul{
+		overflow: hidden;
+}
+
+.container .service>.yihang>ul>li{
+	width: 50%;
+	float: left;
+	padding:0.38rem 0.16rem;
+	border-right: 0.01rem solid #E8E8E8;
+	border-bottom: 0.01rem solid #E8E8E8;
+}
+
+.container .service>.yihang>ul>li:last-child{
+	border-right:0rem;
+}
+
+.container .service>.yihang>ul>li>a{
+	display: block;
+	font-size: 0.18rem;
+	color: #000;
+}
+
+.container .service>.yihang>ul>li>a>figure{
+	padding-right: 0.28rem;
+}
+
+.container .service>.yihang>ul>li>a>figure>figcaption{
+	float: left;
+}
+
+.container .service>.yihang>ul>li>a>figure>figcaption>p{
+	font-size: 0.18rem;
+	color: #999999;
+	margin-top: 0.18rem;
+}
+.container .service>.yihang>ul>li>a>figure>img{
+	display: block;
+	width: 1.32rem;
+	height: 1.32rem;
+	float: right;
+}
+
+
+
+
+.container .service>.erhang{
+	overflow: hidden;
+}
+
+.container .service>.erhang>ul{
+		overflow: hidden;
+}
+
+.container .service>.erhang>ul>li{
+	width: 33.33%;
+	float: left;
+	padding:0.38rem 0.16rem;
+	border-right: 0.01rem solid #E8E8E8;
+	border-bottom: 0.01rem solid #E8E8E8;
+}
+
+.container .service>.erhang>ul>li:last-child{
+	border-right:0rem;
+}
+
+.container .service>.erhang>ul>li>a{
+	display: block;
+	font-size: 0.18rem;
+	color: #000;
+}
+
+.container .service>.erhang>ul>li>a>figure{
+	/*padding-right: 0.28rem;*/
+	overflow: hidden;
+}
+
+.container .service>.erhang>ul>li>a>figure>figcaption{
+	float: left;
+}
+
+.container .service>.erhang>ul>li>a>figure>figcaption>p{
+	font-size: 0.18rem;
+	color: #999999;
+	margin-top: 0.18rem;
+}
+.container .service>.erhang>ul>li>a>figure>img{
+	display: block;
+	width: 0.6rem;
+	height: 0.6rem;
+	float: left;
+	margin-right: 0.18rem;
+}
+
+.container .last{
+	width: 100%;
+	padding:0.2rem 0rem 0.4rem;
+	position: absolute;
+	bottom:-0.40rem;
+	left:0rem;
+}
+
+.container .last>.bai{
+	background: #E7E7E7;
+	/*overflow: hidden;*/
+	padding:0rem 0.2rem;
+}
+
+.container .last>.bai>ul:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.container .last>.bai>ul>li{
+	width:33.33%;
+	float: left;
+	text-align: center;
+	padding:0.28rem 0rem;
+}
+
+.container .last>.bai>ul>li:first-child{
+	text-align: left;
+}
+
+.container .last>.bai>ul>li:last-child{
+	text-align: right;
+}
+
+.container .last>.bai>ul>li:nth-child(2){
+	background: #FF7E00;
+	border-radius: 0.2rem;
+	box-shadow: 0rem 0rem 0.15rem rgba(255,126,0,1);
+	margin-top:-0.1rem;
+}
+
+.container .last>.bai>ul>li>a{
+	color: #000000;
+}
+
+.container .last>.bai>ul>li:nth-child(2)>a{
+	color: #FFFFFF;
+}
+
+.container .last>.bai>ul>li>a>span{
+	font-size: 0.33rem;
+}
+
+.container .last>.bai>ul>li>a>.icon-chaxun:before{
+	color: #666666;
+}
+
+.container .last>.bai>ul>li>a>.icon-boda:before{
+	color: #fff;
+}
+.container .last>.bai>ul>li>a>.icon-goutong1:before{
+	color: #666666;
+}
+
+.container .last>.bai>ul>li:nth-child(2)>a>.icon-sousuo:before{
+	-webkit-text-fill-color: #fff;
+}
+
+.container .last>.bai>ul>li>a>em{
+	font-style: normal;
+	font-size: 0.26rem;
+	font-weight: bolder;
+	margin-left: 0.13rem;
+}

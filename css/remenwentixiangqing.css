@@ -1,0 +1,304 @@
+*{
+	box-sizing: border-box;
+}
+
+body,html{
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	overflow: scroll;
+}
+
+html{
+	overflow: hidden;
+	position: relative;
+}
+
+header{
+	width: 100%;
+	height: 0.93rem;
+	background: #0078E6;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top:0.13rem;
+	position: absolute;
+	top:0rem;
+	left:0rem;
+}
+
+header>img{
+	width: 0.7rem;
+	height: 0.7rem;
+	vertical-align: middle;
+}
+
+header>strong{
+	font-size: 0.33rem;
+	color: #fff;
+	vertical-align: middle;
+	padding-left: 0.15rem;
+}
+
+.banner{
+	margin-top: 0.93rem;
+}
+
+.banner>img{
+	display: block;
+	width: 100%;
+}
+
+.container{
+	padding: 0rem 0.24rem;
+	background: #F5F6FA;
+	overflow: hidden;
+}
+
+.container .about-title{
+	padding: 0.30rem 0rem;
+}
+
+.container .about-title>ul{
+	overflow: hidden;
+}
+
+.container .about-title>ul>li{
+	float: left;
+}
+
+.container .about-title>ul>li>a{
+	font-size: 0.22rem;
+	color: #494747;
+}
+
+.container .about-title>ul>li>img{
+	display: inline-block;
+	height: 0.22rem;
+	padding: 0rem 0.2rem 0rem 0.23rem;
+}
+
+.container .content{
+	padding: 0.23rem 0.2rem 0rem;
+	overflow: hidden;
+	background: #FFFFFF;
+}
+
+.container .content>span{
+	display: inline-block;
+	width: 0.04rem;
+	height: 0.2rem;
+	float: left;
+	background: #01B5FF;
+	margin-right: 0.19rem;
+}
+
+.container .content>h2{
+	width: 5.14rem;
+	color: #444444;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.container .content>hr{
+	border:0.01rem dashed #999999;
+	width: 6.4rem;
+	height: 0.01rem;
+	margin:0.14rem 0rem 0.16rem 0.2rem;
+}
+
+.container .content>.text{
+	width: 6.4rem;
+	padding-left: 0.2rem;
+	line-height: 1.5em;
+	font-size: 0.24rem;
+	color: #666666;
+}
+
+.container .content>.text>p:first-child{
+	margin-bottom: 0.5rem;
+}
+
+.container .content>.text>p:nth-child(2){
+	margin-bottom: 0.4rem;
+}
+
+.container .content>.text>.jiewei{
+	
+	margin:0rem -0.42rem 0.32rem -0.4rem;
+}
+
+
+.container .content>.text>.jiewei>.pic{
+	height: 3.62rem;
+	background: #474747;
+	margin-bottom: 0.31rem;
+}
+
+.container .content>.text>.jiewei>p{
+	padding:0rem 0.2rem 0.27rem 0.42rem;
+}
+
+.container .content>.text>.jiewei>hr{
+	border:0.01rem dashed #999999;
+	width: 6.4rem;
+	margin-left:0.4rem;
+}
+
+.container .content>.text>.jiewei>.fenxiang{
+	margin:0rem 0.24rem 0rem 0.26rem;
+	padding: 0.26rem 0rem 0.24rem 0rem;
+	font-size: 0.24rem;
+	color: #000;
+	overflow: hidden;
+}
+
+.container .content>.text>.jiewei>.fenxiang>span{
+	display: block;
+	float: left;
+}
+
+.container .content>.text>.jiewei>.fenxiang>ul{
+	overflow: hidden;
+	float: left;
+}
+
+.container .content>.text>.jiewei>.fenxiang>ul>li{
+	padding:0rem 0.1rem;
+	float: left;
+}
+
+.container .content>.text>.jiewei>.fenxiang>ul>li>a{
+	display: block;
+	
+}
+
+.container .content>.text>.jiewei>.fenxiang>ul>li>a>img{
+	width: 0.4rem;
+	height: 0.4rem;
+	display: block;
+	border-radius: 50%;
+}
+
+.container .content>.text>.jiewei>.fenxiang>ol{
+	float: right;
+}
+
+.container .content>.text>.jiewei>.fenxiang>ol>li{
+	padding:0rem 0.1rem;
+	float: left;
+}
+
+.container .content>.text>.jiewei>.fenxiang>ol>li>a{
+	display: block;
+}
+
+.container .content>.text>.jiewei>.fenxiang>ol>li>a>img{
+	width: 0.4rem;
+	height: 0.4rem;
+	display: block;
+	border-radius: 50%;
+}
+
+.container .content>.text>.jiewei>.fenye{
+	padding:0.3rem 0rem 0.3rem 0.45rem;
+	background: #F5F6FA;
+}
+
+.container .content>.text>.jiewei>.fenye>a{
+	display: block;
+}
+
+
+.container .content>.text>.jiewei>.fenye>a>p{
+	color: #01b5ff;
+}
+
+.container .content>.text>.jiewei>.fenye>a>p>span{
+	color: #000;
+}
+
+.container .question{
+	padding: 0rem 0.2rem 0.1rem;
+	overflow: hidden;
+	background: #FFFFFF;
+}
+
+.container .question>span{
+	display: inline-block;
+	width: 0.04rem;
+	height: 0.2rem;
+	float: left;
+	background: #01B5FF;
+	margin-right: 0.19rem;
+}
+
+.container .question>h2{
+	width: 5.14rem;
+	color: #444444;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.container .question>hr{
+	border:0.01rem dashed #999999;
+	width: 6.4rem;
+	height: 0.01rem;
+	margin:0.14rem 0rem 0.16rem 0.2rem;
+}
+
+
+.container .question>.liebiao{
+	overflow: hidden;
+	margin-left: -0.24rem;
+}
+
+.container .question>.liebiao>ul{
+	overflow: hidden;
+}
+
+.container .question>.liebiao>ul>li{
+	line-height: 0.53rem;
+}
+
+.container .question>.liebiao>ul>li>a{
+	display: block;
+	font-size: 0.24rem;
+	color: #000;
+}
+
+.container .question>.liebiao>ul>li>a>img{
+	display: block;
+	width: 0.12rem;
+	height: 0.12rem;
+	border-radius: 50%;
+	box-shadow: 0rem 0rem 0.03rem 0.03rem rgba(11,184,255,0.3);
+	float: left;
+	margin:0.2rem 0.16rem 0rem;
+}
+
+.container .question>.liebiao>ul>li:first-child>a>p{
+	width: 4.3rem;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.container .question>.liebiao>ul>li:last-child>a>p{
+	color: #01B5FF;
+	width: 5.2rem;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.container .footer{
+	text-align: center;
+	line-height: 0.36rem;
+	font-size: 0.2rem;
+	color: #666666;
+	padding:0.3rem 0rem;
+}
